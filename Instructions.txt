@@ -1,0 +1,42 @@
+<-------------------------------------->
+< Austin's Bungie ClanV2 Name Checker! >
+<       | Coded by: rave#9185 |        >
+<-------------------------------------->
+
+**Requirements**
+- Python 3.5 (Recccomended) or higher.
+- Requests module
+- logzero module c
+- ctypes
+
+to install a module type the following inside Windows Command Prompt:
+- "python -m pip install [modulename]"
+
+
+- Steps:
+ 1. Open Cmd and change directories to the path of the program
+     Ex: for me its "C:\Users\Austin\Desktop\ClanRaper420"
+
+ 2. Once in the correct directory type the program name in to launch it.
+     Ex: <C:\Users\Austin\Desktop\ClanRaper420>bungie.exe"
+
+ 3. Now it will prompt you to type in a word list, you can either you the one provided (list.txt) or you can use your own.
+    just type in your wordlist's file name.
+
+ 4. Next it will ask for the output file, just type in "output.txt"
+
+ 5. Finally, it will ask you for your browsers X-API-Key. If you don't know how to find it i'll tell the steps or you can google it.
+    a. go to https://www.bungie.net/en/ClanV2/MyClans and open Inspect Element. 
+    b. then in inspect element click Network, then put in some random numbers into the clan search bar and click search. 
+    c. you should see a new result in the network tab. click on it, scroll down until you see something called X-API-Key, then copy the string of numbers and letters and paste it in.
+
+ 6. Now you wait for the program to check the list fully. You're Done now :)
+
+
+
+
+
+
+**NOTE**
+- If you do experience any issues whatsoever, feel free to message me on discord, austin#6900.
+- If you start to get large streaks of taken clans check the URL to see if you've been ratelimited
